@@ -1,6 +1,20 @@
+:root {
+  --cream: #fdfbf9;
+  --tan: #ede1d0;
+  --rose: #d8b293;
+  --teracotta: #a76d4d;
+  --green: #847c5e;
+  --black: #2c2a27;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
+  color: var(--black);
+}
+
+body {
+  background: linear-gradient(var(--cream), var(--tan));
 }
 
 .home {
@@ -29,9 +43,9 @@
 .container__about-me {
   vertical-align: middle;
 
-  /* & h2 {
+  & h2 {
     font-family: 'Red Rose', serif;
-  } */
+  }
 }
 
 img {
@@ -39,4 +53,8 @@ img {
   width: auto;
   object-fit: contain;
   margin-left: -15%;
+}
+
+.projects {
+  height: 100vh;
 }
