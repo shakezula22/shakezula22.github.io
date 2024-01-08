@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.home {
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 50%;
+  width: 100%;
+  padding: 5px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.container__img {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  position: relative;
+}
+
+.container__about-me {
+  vertical-align: middle;
+
+  /* & h2 {
+    font-family: 'Red Rose', serif;
+  } */
+}
+
+img {
+  height: 100%;
+  width: auto;
+  object-fit: contain;
+  margin-left: -15%;
+}
